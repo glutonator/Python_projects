@@ -1,0 +1,27 @@
+id -adres zmiennej
+dodaj¹c stringi na prawdê tworzymy nowego stringa
+UTF - 8 d³ugeo slowo kodowe tylko wtedy kiedy potrzeba
+w listach mog¹  byæ dowolne obiekty :D
+wad¹ jest to, ¿e przechowuje tylko referencje do pamiêci :/
+czyli nie ma ci¹g³ego bloku pamiêci...
+lista -zmienna
+ale czasem potrzeba by by³a niezmienna = tuple
+nie da siê tam w³o¿yæ ani usun¹æ elekmentu
+tupla ma przecinek na koñcu np a=2, //bez przecinka to nie by³a by tupla tylko int
+zaokr¹glanie liczba ca³kowitych jest w dó³, zawsze !!!!
+s³owink = mapa
+s³owniki nie trzymaj¹ kolejnoœæi wk¹³dania elementów
+w 3.6 raczej siê zachowuje, bo jest wydajniesza impelemantacja
+kluczem mo¿e byæ tylko sta³a watrtoœæ
+frozenset(a)
+mapa i set ma wzglêdnie sta³y czas dostêpu
+None to jest NULL - brak wartoœci
+None jest singletonem
+is - czy to jest ten sam obiekt, nie ta sama wartoœæ (czyli ten sam adres ¿eby by³)
+PEP8
+a=5
+b=3
+a,b = b,a
+i to bêdzie a=3, b=5
+else po for
+range generuje liczby ca³kowiete z zakreu

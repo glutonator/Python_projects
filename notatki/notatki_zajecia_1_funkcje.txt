@@ -1,0 +1,31 @@
+funckje
+przestrzenie nazw tworzone s¹ jako s³owniki czyli:
+{n:100, ... }
+w funkcji nie mo¿emy modyfikowaæ zminnych globalnych...
+mo¿na nadpisaæ s³ówko print wenw¹trz funckji, ale nie mo¿emy wtedy u¿ywaæ funckji print ajko drukowania...
+
+z wewn¹trz funkcji mozêmy edytowaæ ju¿ utowrzone obiekty mutable (mutowane)
+
+mo¿na w wywo³aniu funkjcji napisaæ (b=5, a=7) - chocia¿ s¹ w innej koljenosci w definicji metody
+
+jak mamy domœlny argument posatci A=[], to ka¿de edytowanie tego elementu powoduje jej edycje 
+np A.append("ggf") spowoduje dodwanie za ka¿dym razem
+ttrzeba robiæ A=None
+
+domyœlny return w pythonie jest None
+
+mo¿na zwracaæ wiele wartoœci z funckji - w sumie jak tworzenie tupli
+
+funckja w pythonie jest obiektem
+funckje s¹ arg w s³owniku czyli moga byæ w slwoniku
+coœ z z funckj¹ hash na rzecz obektu któym ejst funcjha
+
+jest rekurencja funckji
+
+importy
+
+dwie pod³ogi to jest zarezerowane dla pythona
+
+to jest do importu funckji z pakietów
+from my_pkg.tree import draw_tree
+
