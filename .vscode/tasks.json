@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "taskName": "pytong",
     "type": "shell",
-    "command": "python",
+    "command": "python3",
     //"showOutput": "always",
     "args": [
         "${file}"
