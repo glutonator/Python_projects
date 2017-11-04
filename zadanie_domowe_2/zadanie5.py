@@ -10,18 +10,13 @@ def mult(x, y):
 def function_results_sum(*args, **kwargs):
     suma =0
     for x in args:       
-        #print(x.__name__)
         if (x.__name__ in kwargs):
-            #print(kwargs[x.__name__]) 
             if type(kwargs[x.__name__])==tuple:         
                 suma+=x(*kwargs[x.__name__])
-                print(x(*kwargs[x.__name__]))
             else: 
                 suma+=x(kwargs[x.__name__])
-                print(x(kwargs[x.__name__]))
         else:
             suma+=x()
-            print(x())
     return suma
     
 

@@ -12,11 +12,8 @@ def ewakuacja (lista_osob, liczba_klatek_schodowych, liczba_osob_w_rzedzie, temp
         #liczba krokow potrzbna do opuszczenia pietra
         for y in range(0,x,temp):
             liczba_krokow_do_opusz_pietra+=1
-            print(y)
         czas_od_pocz+=liczba_krokow_do_opusz_pietra*odst_czas+tempo_schodzenia
-        print("next", liczba_krokow_do_opusz_pietra)
     out.reverse()
-    print(out)
     return out
     
 

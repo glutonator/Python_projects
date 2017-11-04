@@ -1,6 +1,5 @@
 
 def power(n, p=2):
-    print((n >= 0) & (p >= 0))
     if ((n == 0) & (p < 0)):
         out = "n lub p mniejsze od 0"
     elif ((n >= 0) & (p >= 0)):

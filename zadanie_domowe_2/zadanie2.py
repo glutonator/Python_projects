@@ -3,7 +3,6 @@ def copy_reversed(list_a, list_b):
     temp = list(list_a)
     temp.reverse()
     list_b.extend(temp)
-    print(list_b)
     return None
 
 
