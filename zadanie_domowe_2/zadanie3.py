@@ -1,5 +1,6 @@
 
 def add_one(lista=None):
+    #powinno byc lista is None
     if lista == None:
         lista = [1]
     else:

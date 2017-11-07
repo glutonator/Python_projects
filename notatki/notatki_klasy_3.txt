@@ -1,0 +1,15 @@
+klasa jest obiektem, tak jak każda instanacja klasy
+
+nie możemy zrobić int foo() i char foo() bo się wywali
+
+najpierw atrybut odnosi się do instacji a potem w klasie
+
+wszystko jest publiczne nie ma czegoś takeigo jak protected i private
+atrybuty klasy są wspłdzielone a instancji nie jest współdzielone - tak w skrócie
+nie ma polimorfizmu jako takiego
+
+dekorator
+
+classmethod -alterneatywny konstruktor
+
+problem dimentowy --- z MRO

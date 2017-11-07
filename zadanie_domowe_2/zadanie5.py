@@ -11,6 +11,8 @@ def function_results_sum(*args, **kwargs):
     suma =0
     for x in args:       
         if (x.__name__ in kwargs):
+            #tutaj można skorzystać z funckji get do obsługi słownika,
+            #  która nie rzuci wyjatkiem jeśli nie ma danego pola w słowniku
             if type(kwargs[x.__name__])==tuple:         
                 suma+=x(*kwargs[x.__name__])
             else: 
